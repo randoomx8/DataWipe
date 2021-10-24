@@ -12,7 +12,7 @@ DataWipe Advanced is just a version of the scipt that gives you more options, su
 ## But this is just a script, so how does this work?
 Because windows added the feature back in 2003 (and has not updated it since lol, but it is still here), just that nobody seemed to notice. This script uses that to overwrite that.
 
-## Why should I use this over something like BeachBit
+## Why should I use this over something like BeachBit?
 Because some of us are (wrongly) paranoid that BeachBit might not be safe. Since this uses a windows built-in tool from ye olden days, it might be more trustworthy for some of us.  
 You can look at the script yourself, it is not very complex.  
 
