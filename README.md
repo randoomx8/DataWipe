@@ -1,5 +1,6 @@
 # DataWipe
-A simple tool that wipes **unallocated** sectors of your disk.
+A simple tool that wipes **unallocated** sectors of your disk.  
+![alt text](https://raw.githubusercontent.com/randoomx8/DataWipe/main/splash.PNG)
 
 ## What does this do?
 This is a bat script for windows PCs that allows you to wipe (overwrite with random 0s and 1s) all the unallocated (unused) data on your disk.  
