@@ -1,12 +1,26 @@
 @echo off
 Color 1F
+chcp 65001
 
 cls
-echo Welcome to DataWipe. This is the basic edition, for advanced controls please download the Advanced version.
-echo Before continuing, please make sure to close EVERY application and piece of software that can be closed.
-echo Otherwise, they might try to open unused data (the stuff you are trying to delete) or retain already existing cache data.
+echo  _____        _     __          ___            
+echo ^|  __ \      ^| ^|    \ \        / (_)           
+echo ^| ^|  ^| ^| __ _^| ^|_ __ \ \  /\  / / _ _ __   ___ 
+echo ^| ^|  ^| ^|/ _` ^| __/ _` \ \/  \/ / ^| ^| '_ \ / _ \
+echo ^| ^|__^| ^| (_^| ^| ^|^| (_^| ^|\  /\  /  ^| ^| ^|_) ^|  __/
+echo ^|_____/ \__,_^|\__\__,_^| \/  \/   ^|_^| .__/ \___^|
+echo                                  ^| ^|         
+echo                                  ^|_^| The walls have ears, data wipe has plugs™
 echo.
-echo THIS VERSION IS OUT OF DATE AND WILL BE UPDATED SOON (alongside the advanced version), BUT SOME TESTING IS NECESSARY FIRST.
+echo Welcome to DataWipe. For advanced features please download the Advanced version.
+echo Before continuing, please make sure to close EVERY application and piece of software that can be closed.
+echo Otherwise, they might try to access unused data or retain already existing cached data. This would be bad.
+echo.
+echo WARNING: MAKE SURE YOU HAVE SHADOW VOLUMES DISABLED, AS THEY KEEP COPIES OF YOUR DATA.
+echo The Volume Shadow Service (VSS) keeps copies of your data. You probably do not want that.
+echo 1. (On windows 7 and 10) go to the serives app on your PC, then find "Volume Shadow Copy".
+echo 2. Right click and select properties and then set the startup type to "Disabled".
+echo.
 pause
 
 cls
